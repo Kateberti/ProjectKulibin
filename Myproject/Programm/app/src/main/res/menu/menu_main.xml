@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/action_head"
+        android:orderInCategory="100"
+        android:title="@string/action_head"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_site"
+        android:orderInCategory="100"
+        android:title="@string/action_site"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_kurs"
+        android:orderInCategory="100"
+        android:title="@string/action_kurs"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_teacher"
+        android:orderInCategory="100"
+        android:title="@string/action_teacher"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_price"
+        android:orderInCategory="100"
+        android:title="@string/action_price"
+        app:showAsAction="never"/>
+</menu>
